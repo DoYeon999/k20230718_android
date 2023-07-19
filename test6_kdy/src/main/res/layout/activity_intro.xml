@@ -10,13 +10,15 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
         android:src="@drawable/rupy" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="인트로 화면 예시"
-        android:textSize="30sp"
-        android:gravity="center_horizontal" />
+    <!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="인트로 화면 예시"-->
+<!--        android:textSize="30sp"-->
+<!--        android:gravity="center_horizontal" />-->
 
 </LinearLayout>
