@@ -33,6 +33,10 @@ android {
 }
 
 dependencies {
+    //외부 API를 가져다 사용 가능
+    //리액트 npm 쇼핑
+    //maven repository 관련 외부 API 쇼핑
+    //안드로이드, 기본적으로 많은 오픈소스 라이브러리를 가지고 있음
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
