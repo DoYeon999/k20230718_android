@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    LinearLayout : 방향 배치 자동-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/rupy" />
+
+    <EditText
+        android:id="@+id/idInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아이디를 입력해주세요" />
+
+    <EditText
+        android:id="@+id/pwInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호를 입력해주세요"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:fontFamily="@font/baemin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="네이버 : www.naver.com, 이메일 : wkdal2965@naver.com, 전화번호 : 010-1234-5678"
+        android:autoLink="web|email|phone"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:fontFamily="@font/baemin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이미지 on"
+        android:backgroundTint="#E58893"
+        android:textColor="#2F0124"
+        android:textSize="30sp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:fontFamily="@font/baemin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이미지 off"
+        android:backgroundTint="#E58893"
+        android:textColor="#2F0124"
+        android:textSize="30sp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/joinBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:backgroundTint="#E58893"
+        android:textColor="#2F0124"
+        android:textSize="30sp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:backgroundTint="#E58893"
+        android:textColor="#2F0124"
+        android:textSize="30sp"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="텍스트1"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="텍스트2"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="텍스트3"
+        android:textSize="15sp"/>
+
+</LinearLayout>
