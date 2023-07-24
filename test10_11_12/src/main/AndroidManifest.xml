@@ -15,8 +15,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.K20230718_Android">
         <activity
-            android:name=".FragTestActivity"
+            android:name=".ViewPage2_Fragment_Activity"
             android:exported="false" />
+        <activity
+            android:name=".ViewPage2_Recycle_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Recycle2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".RecycleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FragTestActivity"
+            android:exported="true" />
         <activity
             android:name=".JetActivity"
             android:exported="true" />
