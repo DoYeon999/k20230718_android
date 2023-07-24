@@ -13,18 +13,4 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="test 플랫폼 Appcompat를 이용한 뷰"
-        android:textSize="30sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="그냥 일반 뷰에서 가져온 텍스트 뷰"
-        android:textSize="25sp" />
-
 </LinearLayout>
