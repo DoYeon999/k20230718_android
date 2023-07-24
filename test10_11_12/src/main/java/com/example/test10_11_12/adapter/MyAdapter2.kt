@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.test10_11_12.databinding.Item2342Binding
-import com.example.test10_11_12.databinding.Item342Binding
+
 
 //Recycle2Activity -> 연결할 어댑터
 //사실 같은 내용이면 기존에 만들었던 어댑터를 재사용 가능
@@ -40,6 +40,6 @@ class MyAdapter2(val datas: MutableList<String>): RecyclerView.Adapter<RecyclerV
             Log.d("kkang", "item root click : $position")
         }
         //목록에 데이터를 임의로 받아오는 부분이 아니라, 기존 데이터에 추가, 수정 할 때 반영이 안되는 경우가 있음, 그럴 때 사용하는 함수
-        notifyDataSetChanged()
+        //notifyDataSetChanged()
     }
 }

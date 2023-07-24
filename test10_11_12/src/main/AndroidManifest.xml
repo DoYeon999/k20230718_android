@@ -15,11 +15,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.K20230718_Android">
         <activity
-            android:name=".ViewPage2_Fragment_Activity"
-            android:exported="false" />
+            android:name=".DrawerTestActivity"
+            android:exported="true" />
         <activity
-            android:name=".ViewPage2_Recycle_Activity"
-            android:exported="false" />
+            android:name=".ViewPager2_Fragment_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewPager2_Recycle_Activity"
+            android:exported="true" />
         <activity
             android:name=".Recycle2Activity"
             android:exported="true" />

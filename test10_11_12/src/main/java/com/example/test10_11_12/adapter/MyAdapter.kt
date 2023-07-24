@@ -46,6 +46,6 @@ import com.example.test10_11_12.databinding.Item342Binding
                 Log.d("kkang", "item root click : $position")
             }
             //목록에 데이터를 임의로 받아오는 부분이 아니라, 기존 데이터에 추가, 수정 할 때 반영이 안되는 경우가 있음, 그럴 때 사용하는 함수
-            notifyDataSetChanged()
+         //   notifyDataSetChanged()
         }
 }
