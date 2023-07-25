@@ -15,6 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.K20230718_Android">
         <activity
+            android:name=".MainActivity389"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity388"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity385"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity384"
             android:exported="true" />
         <activity
