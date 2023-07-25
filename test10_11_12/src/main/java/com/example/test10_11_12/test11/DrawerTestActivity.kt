@@ -1,9 +1,10 @@
-package com.example.test10_11_12
+package com.example.test10_11_12.test11
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
+import com.example.test10_11_12.R
 import com.example.test10_11_12.databinding.ActivityDrawerTestBinding
 
 class DrawerTestActivity : AppCompatActivity() {
@@ -25,7 +26,10 @@ class DrawerTestActivity : AppCompatActivity() {
 
         //ActionBarDrawerToggle 버튼 적용
         //test11/src/main/res/values/strings.xml
-        toggle = ActionBarDrawerToggle(this, binding.drawer, R.string.drawer_opened, R.string.drawer_closed)
+        toggle = ActionBarDrawerToggle(this, binding.drawer,
+            R.string.drawer_opened,
+            R.string.drawer_closed
+        )
         //액션바애 토글부분 연결시켜서 버튼을 클릭하면 서랍 화면이 보인다
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         toggle.syncState()

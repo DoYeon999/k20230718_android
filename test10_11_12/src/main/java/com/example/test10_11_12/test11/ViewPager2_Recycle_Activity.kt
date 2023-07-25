@@ -1,4 +1,4 @@
-package com.example.test10_11_12
+package com.example.test10_11_12.test11
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -27,7 +27,7 @@ class ViewPager2_Recycle_Activity : AppCompatActivity() {
         }
         //액티비티에 뷰페이저
 
-        binding.viewpager.adapter=MyPagerAdapter(datas)
+        binding.viewpager.adapter= MyPagerAdapter(datas)
     }
 
     //리사이클러 뷰 구성방식 1)뷰홀더 2)어댑터

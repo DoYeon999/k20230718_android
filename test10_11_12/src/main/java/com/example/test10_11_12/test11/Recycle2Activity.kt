@@ -1,4 +1,4 @@
-package com.example.test10_11_12
+package com.example.test10_11_12.test11
 
 import android.content.Context
 import android.graphics.BitmapFactory
@@ -14,6 +14,7 @@ import androidx.core.view.ViewCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.test10_11_12.R
 import com.example.test10_11_12.adapter.MyAdapter2
 import com.example.test10_11_12.databinding.ActivityRecycle2Binding
 
@@ -65,7 +66,8 @@ class Recycle2Activity : AppCompatActivity() {
             val width = parent.width
             val height = parent.height
             //이미지 사이즈 계산
-            val dr: Drawable? = ResourcesCompat.getDrawable(context.getResources(), R.drawable.chunsick, null)
+            val dr: Drawable? = ResourcesCompat.getDrawable(context.getResources(),
+                R.drawable.chunsick, null)
             val drWidth = dr?.intrinsicWidth
             val drHeight = dr?.intrinsicHeight
             //이미지가 그려질 위치 계산

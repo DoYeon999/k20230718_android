@@ -1,12 +1,12 @@
-package com.example.test10_11_12
+package com.example.test10_11_12.test11
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.example.test10_11_12.R
 import com.example.test10_11_12.databinding.ActivityFragTestBinding
 import com.example.test10_11_12.fragment.OneFragment
-import com.example.test10_11_12.fragment.TwoFragment
 
 class FragTestActivity : AppCompatActivity() {
 
