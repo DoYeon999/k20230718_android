@@ -1,4 +1,4 @@
-package com.example.test10_11_12
+package com.example.test10_11_12.test12
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
+import com.example.test10_11_12.R
 import com.example.test10_11_12.databinding.ActivityMain389Binding
 
 //test12/src/main/java/com/example/test12/MainActivity389.kt
@@ -28,7 +29,10 @@ class MainActivity389 : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
 
-        toggle = ActionBarDrawerToggle(this, binding.drawer, R.string.drawer_opened, R.string.drawer_closed)
+        toggle = ActionBarDrawerToggle(this, binding.drawer,
+            R.string.drawer_opened,
+            R.string.drawer_closed
+        )
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         toggle.syncState()
 

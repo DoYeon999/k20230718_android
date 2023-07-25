@@ -1,9 +1,10 @@
-package com.example.test10_11_12
+package com.example.test10_11_12.test12
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.test10_11_12.R
 import com.example.test10_11_12.databinding.ActivityMain385Binding
 import com.example.test10_11_12.fragment.OneFragment
 import com.example.test10_11_12.fragment.ThreeFragment
