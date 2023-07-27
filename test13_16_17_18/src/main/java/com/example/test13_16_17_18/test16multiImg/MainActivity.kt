@@ -6,6 +6,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
@@ -56,6 +57,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 for (i in 0 until count!!){
                     val imageUri = it.data!!.clipData?.getItemAt(i)?.uri
+                    Log.d("kdy", "선택된 이미지의 내부 갤러리 공용 저장소의 위치 : $imageUri")
                     if (imageUri != null) {
                         list.add(imageUri)
                     }
